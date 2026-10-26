@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-python-with-pytest",
+      "title": "Testing Python with pytest",
+      "description": "Write unit tests with pytest, check edge cases, and debug a Python function.",
+      "path": "assignments/testing-python-with-pytest",
+      "dueDate": "2026-11-02",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
