@@ -1,19 +1,33 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Python Hangman
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Pratique strings, listas, seleção aleatória, condicionais e loops ao criar um jogo da forca em Python. O jogador tentará descobrir uma palavra secreta antes de esgotar as tentativas disponíveis.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Prepare a palavra e o estado do jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Use a lista de palavras do arquivo `starter-code.py` para selecionar uma palavra secreta aleatoriamente. Inicialize as variáveis necessárias para registrar as letras descobertas, os erros e o limite de tentativas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista predefinida.
+- Acompanhar as letras já informadas e o número de palpites incorretos.
+- Exibir o progresso da palavra, mostrando letras descobertas e espaços para as demais, por exemplo: `_ _ _`.
+
+### 🛠️ Implemente o loop de palpites
+
+#### Descrição
+Implemente o loop principal para receber palpites, atualizar o progresso e encerrar o jogo quando o jogador vencer ou ficar sem tentativas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar ao jogador um palpite de letra e verificar se ela pertence à palavra secreta.
+- Atualizar o progresso quando o palpite estiver correto e contabilizar um erro quando estiver incorreto.
+- Encerrar quando todas as letras forem descobertas ou quando o limite de erros for atingido.
+- Exibir uma mensagem indicando vitória ou derrota e revelar a palavra secreta ao final.
